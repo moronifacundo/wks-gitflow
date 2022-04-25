@@ -1,5 +1,3 @@
-// name, birth_year, height (en metros), cantidad de films. Codear en un componente aparte tal como <Planets>.
-
 import useSWR from 'swr';
 
 import { swGet } from '../../utils/fetcher';
