@@ -4,7 +4,6 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
-import Starships from '../../components/SpaceshipsSection';
 import People from '../../components/PeopleSection';
 
 const MainContainer = () => {
@@ -31,7 +30,7 @@ const MainContainer = () => {
         </Route>
 
         <Route path={paths.starships.href}>
-          {/* <div className="p-3">
+          <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
             <p>
               Agregar tabla con las starships sacadas de la API. Mostrar para
@@ -39,16 +38,16 @@ const MainContainer = () => {
               films. Codear en un componente aparte tal como {'<Planets>'}.
             </p>
             <p>
-              <a href="https://swapi.dev/documentation#starships">
-                https://swapi.dev/documentation#starships
+              <a href="https://swapi.it/documentation#starships">
+                https://swapi.it/documentation#starships
               </a>
             </p>
-          </div> */}
-          <Starships></Starships>
+          </div>
         </Route>
 
         <Route path={paths.people.href}>
           <People />
+          {/* ñsda */}
         </Route>
 
         <Route path={paths.home.href}>
